@@ -6,6 +6,7 @@ function PasswordGenerator(){
     const [length, setLenght] = useState(5);
     const [numberChanged, setNumberChanged] = useState(false);
     const [charChanged, setCharChanged] = useState(false);
+    const [changepass, setChangepass] = useState("");
 
     const genPassword = useCallback(()=>{
         let str = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
@@ -28,7 +29,7 @@ function PasswordGenerator(){
         }
 
         setPassword(pass);
-    },[length,numberChanged,charChanged]);
+    },[length,numberChanged,charChanged,changepass]);
     useEffect(()=>{
         genPassword();
     },[genPassword]);
@@ -36,12 +37,15 @@ function PasswordGenerator(){
     return(
         <div className="box">
             <h1>{password}</h1>
-            <input type="range" min={5} max={25} onChange={(e)=>setLenght(e.target.value)}/>
-            <label>Length({length}) </label>
-            <input type="checkbox" defaultChecked={numberChanged} onChange={()=>setNumberChanged(!numberChanged)}/>
-            <label>Number</label>
-            <input type="checkbox" defaultChecked={charChanged} onChange={()=>setCharChanged(!charChanged)}/>
-            <label>Character</label>
+            <div>
+                <input type="range" min={5} max={25} onChange={(e)=>setLenght(e.target.value)}/>
+                <label>Length({length}) </label>
+                <input type="checkbox" defaultChecked={numberChanged} onChange={()=>setNumberChanged(!numberChanged)}/>
+                <label>Number</label>
+                <input type="checkbox" defaultChecked={charChanged} onChange={()=>setCharChanged(!charChanged)}/>
+                <label>Character</label>
+            </div>
+            <button onClick={()=>setChangepass(changepass)}>Change</button>
         </div>
     )
 }

@@ -1,0 +1,13 @@
+12
+112C:\Users\pnnit\OneDrive\Desktop\WEB DEVELOPMENT\NEXTjs\React\Day 08 - Password generator and Closer\package.json134025798595120370 0
+106C:\Users\pnnit\OneDrive\Desktop\WEB DEVELOPMENT\NEXTjs\React\Day 08 - Password generator and Closer\App.js134025953412200530 0
+104C:\Users\pnnit\OneDrive\Desktop\WEB DEVELOPMENT\NEXTjs\React\Day 08 - Password generator and Closer\dist134025942886815886 1
+110C:\Users\pnnit\OneDrive\Desktop\WEB DEVELOPMENT\NEXTjs\React\Day 08 - Password generator and Closer\index.html134025807811176145 0
+108C:\Users\pnnit\OneDrive\Desktop\WEB DEVELOPMENT\NEXTjs\React\Day 08 - Password generator and Closer\first.js134025857548474072 0
+109C:\Users\pnnit\OneDrive\Desktop\WEB DEVELOPMENT\NEXTjs\React\Day 08 - Password generator and Closer\style.css134025939556801859 0
+117C:\Users\pnnit\OneDrive\Desktop\WEB DEVELOPMENT\NEXTjs\React\Day 08 - Password generator and Closer\package-lock.json134025791896398815 0
+156C:\Users\pnnit\OneDrive\Desktop\WEB DEVELOPMENT\NEXTjs\React\Day 08 - Password generator and Closer\dist\Day 08 - Password generator and Closer.3a01df49.css134025942884352570 0
+160C:\Users\pnnit\OneDrive\Desktop\WEB DEVELOPMENT\NEXTjs\React\Day 08 - Password generator and Closer\dist\Day 08 - Password generator and Closer.3a01df49.css.map134025942886309177 0
+155C:\Users\pnnit\OneDrive\Desktop\WEB DEVELOPMENT\NEXTjs\React\Day 08 - Password generator and Closer\dist\Day 08 - Password generator and Closer.cb65f72e.js134025942884372533 0
+159C:\Users\pnnit\OneDrive\Desktop\WEB DEVELOPMENT\NEXTjs\React\Day 08 - Password generator and Closer\dist\Day 08 - Password generator and Closer.cb65f72e.js.map134025942886381566 0
+115C:\Users\pnnit\OneDrive\Desktop\WEB DEVELOPMENT\NEXTjs\React\Day 08 - Password generator and Closer\dist\index.html134025942881730539 0
