@@ -1,0 +1,25 @@
+{
+  "name": "day-08---password-generator-and-closer",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pnnitish9/Password-generator-using-react.git"
+  },
+  "author": "Nitish kr",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pnnitish9/Password-generator-using-react/issues"
+  },
+  "homepage": "https://github.com/pnnitish9/Password-generator-using-react#readme",
+  "description": "",
+  "dependencies": {
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1"
+  },
+  "devDependencies": {
+    "parcel": "^2.15.4"
+  }
+}
