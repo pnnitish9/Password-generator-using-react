@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useCallback, useEffect, useState } from "react";
 import ReactDOM from "react-dom/client"
 
 function PasswordGenerator(){
@@ -7,10 +7,16 @@ function PasswordGenerator(){
     const [numberChanged, setNumberChanged] = useState(false);
     const [charChanged, setCharChanged] = useState(false);
 
-    function genPassword(){
+    const genPassword = useCallback(()=>{
         let str = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
         const numbers = "0123456789";
         const specials = "~!@#$%^&*()_+-";
+        if(numberChanged){
+            str += numbers;
+        }
+        if(charChanged){
+            str += specials;
+        }
         
         let pass = "";
         // Ensure at least one number and one special char if required
@@ -22,11 +28,10 @@ function PasswordGenerator(){
         }
 
         setPassword(pass);
-    }
-
+    },[length,numberChanged,charChanged]);
     useEffect(()=>{
         genPassword();
-    },[length,numberChanged,charChanged]);
+    },[genPassword]);
 
     return(
         <div className="box">
