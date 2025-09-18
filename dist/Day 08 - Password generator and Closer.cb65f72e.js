@@ -160,7 +160,7 @@
       });
     }
   }
-})({"eYdKO":[function(require,module,exports,__globalThis) {
+})({"icAAj":[function(require,module,exports,__globalThis) {
 var global = arguments[3];
 var HMR_HOST = null;
 var HMR_PORT = null;
@@ -686,7 +686,6 @@ function PasswordGenerator() {
     const [length, setLenght] = (0, _react.useState)(5);
     const [numberChanged, setNumberChanged] = (0, _react.useState)(false);
     const [charChanged, setCharChanged] = (0, _react.useState)(false);
-    const [changepass, setChangepass] = (0, _react.useState)("");
     const genPassword = (0, _react.useCallback)(()=>{
         let str = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
         const numbers = "0123456789";
@@ -702,8 +701,7 @@ function PasswordGenerator() {
     }, [
         length,
         numberChanged,
-        charChanged,
-        changepass
+        charChanged
     ]);
     (0, _react.useEffect)(()=>{
         genPassword();
@@ -714,10 +712,17 @@ function PasswordGenerator() {
         className: "box",
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
+                children: "Password Generator"
+            }, void 0, false, {
+                fileName: "App.js",
+                lineNumber: 40,
+                columnNumber: 13
+            }, this),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
                 children: password
             }, void 0, false, {
                 fileName: "App.js",
-                lineNumber: 39,
+                lineNumber: 41,
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -729,7 +734,7 @@ function PasswordGenerator() {
                         onChange: (e)=>setLenght(e.target.value)
                     }, void 0, false, {
                         fileName: "App.js",
-                        lineNumber: 41,
+                        lineNumber: 43,
                         columnNumber: 17
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("label", {
@@ -740,7 +745,7 @@ function PasswordGenerator() {
                         ]
                     }, void 0, true, {
                         fileName: "App.js",
-                        lineNumber: 42,
+                        lineNumber: 44,
                         columnNumber: 17
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
@@ -749,14 +754,14 @@ function PasswordGenerator() {
                         onChange: ()=>setNumberChanged(!numberChanged)
                     }, void 0, false, {
                         fileName: "App.js",
-                        lineNumber: 43,
+                        lineNumber: 45,
                         columnNumber: 17
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("label", {
                         children: "Number"
                     }, void 0, false, {
                         fileName: "App.js",
-                        lineNumber: 44,
+                        lineNumber: 46,
                         columnNumber: 17
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
@@ -765,42 +770,42 @@ function PasswordGenerator() {
                         onChange: ()=>setCharChanged(!charChanged)
                     }, void 0, false, {
                         fileName: "App.js",
-                        lineNumber: 45,
+                        lineNumber: 47,
                         columnNumber: 17
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("label", {
                         children: "Character"
                     }, void 0, false, {
                         fileName: "App.js",
-                        lineNumber: 46,
+                        lineNumber: 48,
                         columnNumber: 17
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "App.js",
-                lineNumber: 40,
+                lineNumber: 42,
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
-                onClick: ()=>setChangepass(changepass),
+                onClick: genPassword,
                 children: "Change"
             }, void 0, false, {
                 fileName: "App.js",
-                lineNumber: 48,
+                lineNumber: 50,
                 columnNumber: 13
             }, this)
         ]
     }, void 0, true, {
         fileName: "App.js",
-        lineNumber: 38,
+        lineNumber: 39,
         columnNumber: 9
     }, this);
 }
-_s(PasswordGenerator, "pcaXJQztTNar/BpdYtwxGtBS8ts=");
+_s(PasswordGenerator, "mIsEbXioBpN0d3Ot8Ca3SnPXnc0=");
 _c = PasswordGenerator;
 (0, _clientDefault.default).createRoot(document.getElementById('root')).render(/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(PasswordGenerator, {}, void 0, false, {
     fileName: "App.js",
-    lineNumber: 53,
+    lineNumber: 55,
     columnNumber: 61
 }, undefined));
 var _c;
@@ -811,11 +816,11 @@ $RefreshReg$(_c, "PasswordGenerator");
   globalThis.$RefreshReg$ = prevRefreshReg;
   globalThis.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"ePqGj","react":"9Wc9e","react-dom/client":"911N1","@parcel/transformer-js/src/esmodule-helpers.js":"4p2ta","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"2hcep"}],"ePqGj":[function(require,module,exports,__globalThis) {
+},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","react-dom/client":"hrvwu","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}],"dVPUn":[function(require,module,exports,__globalThis) {
 'use strict';
-module.exports = require("5bc71292fe92c3fc");
+module.exports = require("ee51401569654d91");
 
-},{"5bc71292fe92c3fc":"gDINz"}],"gDINz":[function(require,module,exports,__globalThis) {
+},{"ee51401569654d91":"gnlQf"}],"gnlQf":[function(require,module,exports,__globalThis) {
 /**
  * @license React
  * react-jsx-dev-runtime.development.js
@@ -1000,7 +1005,7 @@ module.exports = require("5bc71292fe92c3fc");
     function validateChildKeys(node) {
         "object" === typeof node && null !== node && node.$$typeof === REACT_ELEMENT_TYPE && node._store && (node._store.validated = 1);
     }
-    var React = require("43061302523c2699"), REACT_ELEMENT_TYPE = Symbol.for("react.transitional.element"), REACT_PORTAL_TYPE = Symbol.for("react.portal"), REACT_FRAGMENT_TYPE = Symbol.for("react.fragment"), REACT_STRICT_MODE_TYPE = Symbol.for("react.strict_mode"), REACT_PROFILER_TYPE = Symbol.for("react.profiler");
+    var React = require("58362d9d82be395f"), REACT_ELEMENT_TYPE = Symbol.for("react.transitional.element"), REACT_PORTAL_TYPE = Symbol.for("react.portal"), REACT_FRAGMENT_TYPE = Symbol.for("react.fragment"), REACT_STRICT_MODE_TYPE = Symbol.for("react.strict_mode"), REACT_PROFILER_TYPE = Symbol.for("react.profiler");
     Symbol.for("react.provider");
     var REACT_CONSUMER_TYPE = Symbol.for("react.consumer"), REACT_CONTEXT_TYPE = Symbol.for("react.context"), REACT_FORWARD_REF_TYPE = Symbol.for("react.forward_ref"), REACT_SUSPENSE_TYPE = Symbol.for("react.suspense"), REACT_SUSPENSE_LIST_TYPE = Symbol.for("react.suspense_list"), REACT_MEMO_TYPE = Symbol.for("react.memo"), REACT_LAZY_TYPE = Symbol.for("react.lazy"), REACT_ACTIVITY_TYPE = Symbol.for("react.activity"), REACT_CLIENT_REFERENCE = Symbol.for("react.client.reference"), ReactSharedInternals = React.__CLIENT_INTERNALS_DO_NOT_USE_OR_WARN_USERS_THEY_CANNOT_UPGRADE, hasOwnProperty = Object.prototype.hasOwnProperty, isArrayImpl = Array.isArray, createTask = console.createTask ? console.createTask : function() {
         return null;
@@ -1022,11 +1027,11 @@ module.exports = require("5bc71292fe92c3fc");
     };
 })();
 
-},{"43061302523c2699":"9Wc9e"}],"9Wc9e":[function(require,module,exports,__globalThis) {
+},{"58362d9d82be395f":"jMk1U"}],"jMk1U":[function(require,module,exports,__globalThis) {
 'use strict';
-module.exports = require("42d6e0552c1e0ac0");
+module.exports = require("a569817e6ea559f6");
 
-},{"42d6e0552c1e0ac0":"7yChx"}],"7yChx":[function(require,module,exports,__globalThis) {
+},{"a569817e6ea559f6":"ghslp"}],"ghslp":[function(require,module,exports,__globalThis) {
 /**
  * @license React
  * react.development.js
@@ -1781,7 +1786,7 @@ module.exports = require("42d6e0552c1e0ac0");
     "undefined" !== typeof __REACT_DEVTOOLS_GLOBAL_HOOK__ && "function" === typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStop && __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStop(Error());
 })();
 
-},{}],"911N1":[function(require,module,exports,__globalThis) {
+},{}],"hrvwu":[function(require,module,exports,__globalThis) {
 'use strict';
 function checkDCE() {
     /* global __REACT_DEVTOOLS_GLOBAL_HOOK__ */ if (typeof __REACT_DEVTOOLS_GLOBAL_HOOK__ === 'undefined' || typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.checkDCE !== 'function') return;
@@ -1795,9 +1800,9 @@ function checkDCE() {
     // a false positive.
     throw new Error('^_^');
 }
-module.exports = require("aa9d2d655fb496b");
+module.exports = require("2b53550ce04dc092");
 
-},{"aa9d2d655fb496b":"3pR9e"}],"3pR9e":[function(require,module,exports,__globalThis) {
+},{"2b53550ce04dc092":"lu7uO"}],"lu7uO":[function(require,module,exports,__globalThis) {
 /**
  * @license React
  * react-dom-client.development.js
@@ -12790,7 +12795,7 @@ module.exports = require("aa9d2d655fb496b");
         container[internalContainerInstanceKey] && (container._reactRootContainer ? console.error("You are calling ReactDOMClient.createRoot() on a container that was previously passed to ReactDOM.render(). This is not supported.") : console.error("You are calling ReactDOMClient.createRoot() on a container that has already been passed to createRoot() before. Instead, call root.render() on the existing root instead if you want to update it."));
     }
     "undefined" !== typeof __REACT_DEVTOOLS_GLOBAL_HOOK__ && "function" === typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStart && __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStart(Error());
-    var Scheduler = require("6deff986b5d959ea"), React = require("3726388ef4146683"), ReactDOM = require("818e19308e1bab3c"), assign = Object.assign, REACT_LEGACY_ELEMENT_TYPE = Symbol.for("react.element"), REACT_ELEMENT_TYPE = Symbol.for("react.transitional.element"), REACT_PORTAL_TYPE = Symbol.for("react.portal"), REACT_FRAGMENT_TYPE = Symbol.for("react.fragment"), REACT_STRICT_MODE_TYPE = Symbol.for("react.strict_mode"), REACT_PROFILER_TYPE = Symbol.for("react.profiler"), REACT_PROVIDER_TYPE = Symbol.for("react.provider"), REACT_CONSUMER_TYPE = Symbol.for("react.consumer"), REACT_CONTEXT_TYPE = Symbol.for("react.context"), REACT_FORWARD_REF_TYPE = Symbol.for("react.forward_ref"), REACT_SUSPENSE_TYPE = Symbol.for("react.suspense"), REACT_SUSPENSE_LIST_TYPE = Symbol.for("react.suspense_list"), REACT_MEMO_TYPE = Symbol.for("react.memo"), REACT_LAZY_TYPE = Symbol.for("react.lazy");
+    var Scheduler = require("c31f9b99c1e288cf"), React = require("c4c4bc2113e5c77f"), ReactDOM = require("772d609564cfd8f6"), assign = Object.assign, REACT_LEGACY_ELEMENT_TYPE = Symbol.for("react.element"), REACT_ELEMENT_TYPE = Symbol.for("react.transitional.element"), REACT_PORTAL_TYPE = Symbol.for("react.portal"), REACT_FRAGMENT_TYPE = Symbol.for("react.fragment"), REACT_STRICT_MODE_TYPE = Symbol.for("react.strict_mode"), REACT_PROFILER_TYPE = Symbol.for("react.profiler"), REACT_PROVIDER_TYPE = Symbol.for("react.provider"), REACT_CONSUMER_TYPE = Symbol.for("react.consumer"), REACT_CONTEXT_TYPE = Symbol.for("react.context"), REACT_FORWARD_REF_TYPE = Symbol.for("react.forward_ref"), REACT_SUSPENSE_TYPE = Symbol.for("react.suspense"), REACT_SUSPENSE_LIST_TYPE = Symbol.for("react.suspense_list"), REACT_MEMO_TYPE = Symbol.for("react.memo"), REACT_LAZY_TYPE = Symbol.for("react.lazy");
     Symbol.for("react.scope");
     var REACT_ACTIVITY_TYPE = Symbol.for("react.activity");
     Symbol.for("react.legacy_hidden");
@@ -15766,11 +15771,11 @@ module.exports = require("aa9d2d655fb496b");
     "undefined" !== typeof __REACT_DEVTOOLS_GLOBAL_HOOK__ && "function" === typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStop && __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStop(Error());
 })();
 
-},{"6deff986b5d959ea":"5gnCV","3726388ef4146683":"9Wc9e","818e19308e1bab3c":"4NRW9"}],"5gnCV":[function(require,module,exports,__globalThis) {
+},{"c31f9b99c1e288cf":"4OQ2m","c4c4bc2113e5c77f":"jMk1U","772d609564cfd8f6":"i4X7T"}],"4OQ2m":[function(require,module,exports,__globalThis) {
 'use strict';
-module.exports = require("f8d8d5c7afbd2b01");
+module.exports = require("ef03b89c8fe2794e");
 
-},{"f8d8d5c7afbd2b01":"hPh8Y"}],"hPh8Y":[function(require,module,exports,__globalThis) {
+},{"ef03b89c8fe2794e":"j5hep"}],"j5hep":[function(require,module,exports,__globalThis) {
 /**
  * @license React
  * scheduler.development.js
@@ -16017,7 +16022,7 @@ module.exports = require("f8d8d5c7afbd2b01");
     "undefined" !== typeof __REACT_DEVTOOLS_GLOBAL_HOOK__ && "function" === typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStop && __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStop(Error());
 })();
 
-},{}],"4NRW9":[function(require,module,exports,__globalThis) {
+},{}],"i4X7T":[function(require,module,exports,__globalThis) {
 'use strict';
 function checkDCE() {
     /* global __REACT_DEVTOOLS_GLOBAL_HOOK__ */ if (typeof __REACT_DEVTOOLS_GLOBAL_HOOK__ === 'undefined' || typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.checkDCE !== 'function') return;
@@ -16031,9 +16036,9 @@ function checkDCE() {
     // a false positive.
     throw new Error('^_^');
 }
-module.exports = require("a24980b75dd3a3b2");
+module.exports = require("b0f0e6b9e8349dac");
 
-},{"a24980b75dd3a3b2":"KMNcb"}],"KMNcb":[function(require,module,exports,__globalThis) {
+},{"b0f0e6b9e8349dac":"cLd8p"}],"cLd8p":[function(require,module,exports,__globalThis) {
 /**
  * @license React
  * react-dom.development.js
@@ -16081,7 +16086,7 @@ module.exports = require("a24980b75dd3a3b2");
         return dispatcher;
     }
     "undefined" !== typeof __REACT_DEVTOOLS_GLOBAL_HOOK__ && "function" === typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStart && __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStart(Error());
-    var React = require("370c2fa9cbbca203"), Internals = {
+    var React = require("6f0162e9ab224cd4"), Internals = {
         d: {
             f: noop,
             r: function() {
@@ -16210,7 +16215,7 @@ module.exports = require("a24980b75dd3a3b2");
     "undefined" !== typeof __REACT_DEVTOOLS_GLOBAL_HOOK__ && "function" === typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStop && __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStop(Error());
 })();
 
-},{"370c2fa9cbbca203":"9Wc9e"}],"4p2ta":[function(require,module,exports,__globalThis) {
+},{"6f0162e9ab224cd4":"jMk1U"}],"jnFvT":[function(require,module,exports,__globalThis) {
 exports.interopDefault = function(a) {
     return a && a.__esModule ? a : {
         default: a
@@ -16240,9 +16245,9 @@ exports.export = function(dest, destName, get) {
     });
 };
 
-},{}],"2hcep":[function(require,module,exports,__globalThis) {
+},{}],"7h6Pi":[function(require,module,exports,__globalThis) {
 "use strict";
-var Refresh = require("e99c5ce2d3456af9");
+var Refresh = require("7422ead32dcc1e6b");
 function debounce(func, delay) {
     {
         let timeout = undefined;
@@ -16280,7 +16285,7 @@ module.exports.init = function() {
             };
         };
         if (typeof window !== 'undefined') {
-            let ErrorOverlay = require("e38930647ac746f9");
+            let ErrorOverlay = require("e4d875b7642f9496");
             ErrorOverlay.setEditorHandler(function(errorLocation) {
                 let file = `${errorLocation.fileName}:${errorLocation.lineNumber || 1}:${errorLocation.colNumber || 1}`;
                 fetch(module.bundle.devServer + `/__parcel_launch_editor?file=${encodeURIComponent(file)}`);
@@ -16403,11 +16408,11 @@ function registerExportsForReactRefresh(module1) {
     }
 }
 
-},{"e99c5ce2d3456af9":"bAt9v","e38930647ac746f9":"ddm4x"}],"bAt9v":[function(require,module,exports,__globalThis) {
+},{"7422ead32dcc1e6b":"hpiFP","e4d875b7642f9496":"gnoim"}],"hpiFP":[function(require,module,exports,__globalThis) {
 'use strict';
-module.exports = require("c4817142f12e2ff9");
+module.exports = require("96622d495519d4e");
 
-},{"c4817142f12e2ff9":"gXVQo"}],"gXVQo":[function(require,module,exports,__globalThis) {
+},{"96622d495519d4e":"7AD9f"}],"7AD9f":[function(require,module,exports,__globalThis) {
 /**
  * @license React
  * react-refresh-runtime.development.js
@@ -16643,7 +16648,7 @@ module.exports = require("c4817142f12e2ff9");
     exports.setSignature = setSignature;
 })();
 
-},{}],"ddm4x":[function(require,module,exports,__globalThis) {
+},{}],"gnoim":[function(require,module,exports,__globalThis) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "setEditorHandler", ()=>$da9882e673ac146b$export$25a22ac46f1bd016);
@@ -18518,6 +18523,6 @@ function $da9882e673ac146b$var$ErrorOverlay() {
     return null;
 }
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"4p2ta"}]},["eYdKO","blcJa"], "blcJa", "parcelRequire3ed9", {}, null, null, "http://localhost:1234")
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}]},["icAAj","blcJa"], "blcJa", "parcelRequire3ed9", {}, null, null, "http://localhost:1234")
 
 //# sourceMappingURL=Day 08 - Password generator and Closer.cb65f72e.js.map
